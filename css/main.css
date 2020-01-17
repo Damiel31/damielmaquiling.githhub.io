@@ -1,0 +1,461 @@
+body{
+    background-color: #FBFCFF;
+    font-family: 'Avenir Next', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.navbar{
+    
+    background-color: #ffffff !important;
+    height: 126px;
+}
+.navbar .navbar-nav .nav-item{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #8C8C8C;
+    margin: 5px;
+    
+}
+.navbar .navbar-nav button{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    background: #FFFFFF;
+    border: 5px solid #FF3D4E;
+    box-sizing: border-box;
+    border-radius: 50px;
+    width: 159px;
+    height: 44px;
+}
+.banner .banner-text{
+    margin-top: 161px;
+}
+.banner .banner-text strong{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #FF3D4E;
+}
+.banner .banner-text h1{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-top: 19px;
+}
+.banner .banner-text p{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #868B92;
+    margin-top: 19px;
+}
+.banner .banner-text button{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background: #FF3D4E;
+    border-radius: 5px;
+    border: none;
+    width: 224px;
+    height: 68px;
+    margin-top: 19px;
+}
+.banner .banner-img{
+    margin-top: 82px;
+    margin-left: 115px;
+}
+
+.about-me{
+    margin-top: -2px;
+}
+.about-me .box{
+    width: 1168px;
+    height: 400px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.about-me .delivers{
+    text-align: center;
+    margin-top: 96px;    
+}
+.about-me .education{
+    text-align: center;
+    margin-top: 96px;
+    
+}
+.about-me .teamwork{
+    text-align: center;
+    margin-top: 96px;
+}
+.about-me  img{
+    width: 66px;
+    height: 66px;
+}
+.about-me .delivers h1{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-top: 25px;
+}
+.about-me .education h1{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-top: 25px;
+}
+.about-me .teamwork h1{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.about-me p{  
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #868B92;
+    padding: 20px;
+}
+.about-me .box-text p{
+    margin-top: -17px;
+}
+.about-me .box-text h1{
+    margin-top: 25px;
+}
+
+.case-study-redeem {
+    margin-top: 154px;
+    height: 693px;
+    background: #FFFFFF;
+}
+
+.case-study-redeem .iconn{
+    margin-top: 106px;
+}
+.case-study-redeem .box-text{
+    margin-top: -38px;
+    margin-left: 19px;
+}
+.case-study-redeem .box-text h1{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    
+}
+.case-study-redeem .box-text p{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    color: #868B92;
+    margin-top: 22px;
+}
+.case-study-redeem .buttonborder{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 21px;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    margin-left: 19px;
+    border-bottom: 3px solid #FF3D4E;
+    width: 215px;
+    margin-top: 22px;
+}
+.case-study-redeem .buttonborder a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}
+.case-study-redeem .imgRedeem{
+    margin-top: 106px;
+}
+
+.case-study-ukay-ukay{
+    height: 693px;
+}
+.case-study-ukay-ukay .imgUkayUkay{
+    margin-top: 141px;
+}
+.case-study-ukay-ukay .iconn{
+    margin-top: 145px;
+}
+.case-study-ukay-ukay .box-text{
+    margin-top: -38px;
+    margin-left: 19px;
+}
+.case-study-ukay-ukay .box-text h1{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+.case-study-ukay-ukay .box-text p{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    color: #868B92;
+}
+.case-study-ukay-ukay .buttonborder{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 21px;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    margin-left: 19px;
+    border-bottom: 3px solid #FF3D4E;
+    width: 215px;
+    margin-top: 22px;
+}
+.case-study-ukay-ukay .buttonborder a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}
+.case-study-kamayan {
+    height: 693px;
+    background: #FFFFFF;
+}
+.case-study-kamayan .iconn{
+    margin-top: 112px;
+}
+.case-study-kamayan .box-text{
+    margin-top: -38px;
+    margin-left: 19px;
+}
+.case-study-kamayan .box-text h1{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+.case-study-kamayan .box-text p{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    color: #868B92;
+    margin-top: 22px;
+}
+.case-study-kamayan .buttonborder{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 21px;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    margin-left: 19px;
+    border-bottom: 3px solid #FF3D4E;
+    width: 215px;
+    margin-top: 22px;
+}
+.case-study-kamayan .buttonborder a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}
+.case-study-kamayan .imgKamayan{
+    margin-top: 112px;
+}
+
+.testimonials{
+    height: 681px;
+    background: #FF3D4E;
+}
+.testimonials h1{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 71px;
+}
+.testimonials .carousel-item p{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 25px;
+    line-height: 37px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.testimonials .carousel-inner{
+    margin-top: 74px;
+}
+.testimonials .carousel-item img{
+    margin-top: 16px;
+}
+.testimonials .carousel-item h3{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 7px;
+}
+.testimonials .carousel-item h4{
+    margin-top: 46px;
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 7px;
+
+}
+.testimonials .carousel-item a{
+    cursor: pointer;
+    text-decoration: none;
+}
+footer{
+    height: 522px;
+}
+footer .box-text{
+    margin-top: 116px;
+}
+footer .box-text h1{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+footer .box-text p{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #868B92;
+    margin-top: 20px;
+}
+footer .box-contact{
+    margin-top: 116px;
+}
+footer .box-contact h1{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+footer .box-contact .numberborder{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 21px;
+    line-height: 31px;  
+    letter-spacing: 0.05em; 
+    color: #868B92;
+    border-bottom: 3px solid #FF3D4E;
+    width: 148px;
+    margin-top: 18px;
+}
+footer .box-contact .emailborder{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 21px;
+    line-height: 31px;  
+    letter-spacing: 0.05em; 
+    color: #868B92;
+    border-bottom: 3px solid #FF3D4E;
+    width: 314px;
+    margin-top: 18px;
+}
+footer .box-social{
+    margin-top: 116px;
+}
+footer .box-social h1{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+footer .box-social .iconlinks{
+    margin-top: 11px;
+}
+footer .box-social .git{
+    margin-left: 13px;
+}
+footer .box-social .fb{
+    margin-left: 13px;
+}
+footer .box-social .twitter{
+    margin-left: 13px;
+}
+footer .box-social a{
+    cursor: pointer;
+    text-decoration: none;
+}

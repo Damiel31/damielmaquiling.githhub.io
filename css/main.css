@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body{
     background-color: #FBFCFF;
     font-family: 'Avenir Next', Arial, Helvetica, sans-serif;
@@ -34,6 +37,10 @@ body{
     border-radius: 50px;
     width: 159px;
     height: 44px;
+}
+.navbar .navbar-nav button:hover{
+    background: #FF3D4E;
+    color: #ffffff;
 }
 .banner .banner-text{
     margin-top: 161px;
@@ -81,6 +88,9 @@ body{
     width: 224px;
     height: 68px;
     margin-top: 19px;
+}
+.banner .banner-text button:hover{
+    color: #000000;
 }
 .banner .banner-img{
     margin-top: 82px;
@@ -211,6 +221,11 @@ body{
     text-decoration: none;
     color: #000000;
 }
+.case-study-redeem .buttonborder a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #FF3D4E;
+}
 .case-study-redeem .imgRedeem{
     margin-top: 106px;
 }
@@ -263,6 +278,11 @@ body{
     text-decoration: none;
     color: #000000;
 }
+.case-study-ukay-ukay .buttonborder a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #FF3D4E;
+}
 .case-study-kamayan {
     height: 693px;
     background: #FFFFFF;
@@ -309,6 +329,11 @@ body{
     cursor: pointer;
     text-decoration: none;
     color: #000000;
+}
+.case-study-kamayan .buttonborder a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #FF3D4E;
 }
 .case-study-kamayan .imgKamayan{
     margin-top: 112px;

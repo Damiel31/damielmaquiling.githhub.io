@@ -12,26 +12,27 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
 </head>
 <body>
     
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <nav id="navbar-example2" class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="img/Logo.png" alt="Logo">
             </a>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link redeem" href="#">REDEEM</a>
+                    <a class="nav-link redeem" href="#case-Redeem">REDEEM</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link ukay-ukay" href="#">UKAY-UKAY</a>
+                    <a class="nav-link ukay-ukay" href="#case-Ukay-Ukay">UKAY-UKAY</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link kamayan" href="#">KAMAYAN</a>
+                    <a class="nav-link kamayan" href="#case-Kamayan">KAMAYAN</a>
                 </li>
-                <button type="button">LET'S TALK</button>
+                <a href="#Footer-info">
+                    <button type="button">LET'S TALK</button>
+                </a>
             </ul>
         </div>
       </nav>
@@ -47,7 +48,9 @@
                             I'm a UI designer, My portfolio showcases my work projects created
                             throughout my career. See my contact information below and get in tough.
                         </p>
-                        <button type="button">DOWNLOAD CV</button>
+                        <a href="My_CV.pdf" download="MY_CV">
+                            <button type="button">DOWNLOAD CV</button>
+                        </a>
                     </div>
                 </div>
                 <div class="col-xl-6">
@@ -112,7 +115,7 @@
         </div>
       </section>
 
-      <section class="case-study-redeem">
+      <section class="case-study-redeem" id="case-Redeem">
         <div class="container">
             <div class="row">
                 <div class="col-xl-5">
@@ -142,7 +145,7 @@
         </div>
       </section>
 
-      <section class="case-study-ukay-ukay">
+      <section class="case-study-ukay-ukay" id="case-Ukay-Ukay">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6">
@@ -171,7 +174,7 @@
         </div>
       </section>
 
-      <section class="case-study-kamayan">
+      <section class="case-study-kamayan" id="case-Kamayan">
         <div class="container">
             <div class="row">
                 <div class="col-xl-5">
@@ -269,7 +272,7 @@
         </div>
       </section>
 
-      <footer>
+      <footer id="Footer-info">
           <div class="container">
             <div class="row">
                 <div class="col-lg-4">
@@ -319,6 +322,5 @@
             </div>
           </div>
       </footer>
-
 </body>
 </html>

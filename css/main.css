@@ -11,7 +11,7 @@ body{
     height: 126px;
 }
 .navbar .navbar-nav .nav-item{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -22,7 +22,7 @@ body{
     
 }
 .navbar .navbar-nav button{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 750;
     font-size: 21px;
@@ -36,6 +36,9 @@ body{
     width: 159px;
     height: 44px;
 }
+.navbar .navbar-nav button:focus{
+    outline:0 !important;
+}
 .navbar .navbar-nav button:hover{
     background: #FF3D4E;
     color: #ffffff;
@@ -44,7 +47,7 @@ body{
     margin-top: 161px;
 }
 .banner .banner-text strong{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -53,7 +56,7 @@ body{
     color: #FF3D4E;
 }
 .banner .banner-text h1{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 750;
     font-size: 30px;
@@ -63,7 +66,7 @@ body{
     margin-top: 19px;
 }
 .banner .banner-text p{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 450;
     font-size: 16px;
@@ -73,7 +76,7 @@ body{
     margin-top: 19px;
 }
 .banner .banner-text button{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 750;
     font-size: 18px;
@@ -122,7 +125,7 @@ body{
     height: 66px;
 }
 .about-me .delivers h1{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 750;
     font-size: 18px;
@@ -132,7 +135,7 @@ body{
     margin-top: 25px;
 }
 .about-me .education h1{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 750;
     font-size: 18px;
@@ -142,7 +145,7 @@ body{
     margin-top: 25px;
 }
 .about-me .teamwork h1{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 750;
     font-size: 18px;
@@ -152,7 +155,7 @@ body{
 }
 
 .about-me p{  
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 450;
     font-size: 20px;
@@ -183,7 +186,7 @@ body{
     margin-left: 19px;
 }
 .case-study-redeem .box-text h1{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 750;
     font-size: 30px;
@@ -193,7 +196,7 @@ body{
     
 }
 .case-study-redeem .box-text p{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 450;
     font-size: 18px;
@@ -203,7 +206,7 @@ body{
     margin-top: 22px;
 }
 .case-study-redeem .buttonborder{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 750;
     font-size: 21px;
@@ -242,7 +245,7 @@ body{
     margin-left: 19px;
 }
 .case-study-ukay-ukay .box-text h1{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 750;
     font-size: 30px;
@@ -251,16 +254,17 @@ body{
     color: #000000;
 }
 .case-study-ukay-ukay .box-text p{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 450;
     font-size: 18px;
     line-height: 27px;
     letter-spacing: 0.1em;
     color: #868B92;
+    margin-top: 22px;
 }
 .case-study-ukay-ukay .buttonborder{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 750;
     font-size: 21px;
@@ -293,7 +297,7 @@ body{
     margin-left: 19px;
 }
 .case-study-kamayan .box-text h1{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 750;
     font-size: 30px;
@@ -302,7 +306,7 @@ body{
     color: #000000;
 }
 .case-study-kamayan .box-text p{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 450;
     font-size: 18px;
@@ -312,7 +316,7 @@ body{
     margin-top: 22px;
 }
 .case-study-kamayan .buttonborder{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 750;
     font-size: 21px;
@@ -342,7 +346,7 @@ body{
     background: #FF3D4E;
 }
 .testimonials h1{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 750;
     font-size: 21px;
@@ -352,7 +356,7 @@ body{
     margin-top: 71px;
 }
 .testimonials .carousel-item p{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 450;
     font-size: 25px;
@@ -367,7 +371,7 @@ body{
     margin-top: 16px;
 }
 .testimonials .carousel-item h3{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 750;
     font-size: 18px;
@@ -378,7 +382,7 @@ body{
 }
 .testimonials .carousel-item h4{
     margin-top: 46px;
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -399,7 +403,7 @@ footer .box-text{
     margin-top: 116px;
 }
 footer .box-text h1{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 21px;
@@ -408,7 +412,7 @@ footer .box-text h1{
     color: #000000;
 }
 footer .box-text p{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 450;
     font-size: 21px;
@@ -421,7 +425,7 @@ footer .box-contact{
     margin-top: 116px;
 }
 footer .box-contact h1{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 21px;
@@ -430,7 +434,7 @@ footer .box-contact h1{
     color: #000000;
 }
 footer .box-contact .numberborder{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 450;
     font-size: 21px;
@@ -442,7 +446,7 @@ footer .box-contact .numberborder{
     margin-top: 18px;
 }
 footer .box-contact .emailborder{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 450;
     font-size: 21px;
@@ -457,7 +461,7 @@ footer .box-social{
     margin-top: 116px;
 }
 footer .box-social h1{
-    font-family: Avenir Next Cyr;
+    font-family: 'Avenir Next', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 21px;

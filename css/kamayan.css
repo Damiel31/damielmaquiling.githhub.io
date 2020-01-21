@@ -1,0 +1,279 @@
+
+body{
+    background-color: #FBFCFF;
+    font-family: 'Avenir Next', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.navbar{
+    
+    background-color: #ffffff !important;
+    height: 126px;
+}
+.navbar .navbar-nav .nav-item{
+    font-family: 'Avenir Next', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #8C8C8C;
+    margin: 5px;
+    
+}
+.navbar .navbar-nav button{
+    font-family: 'Avenir Next', sans-serif;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    background: #FFFFFF;
+    border: 5px solid #FF3D4E;
+    box-sizing: border-box;
+    border-radius: 50px;
+    width: 159px;
+    height: 44px;
+}
+.navbar .navbar-nav button:focus{
+    outline:0 !important;
+}
+.navbar .navbar-nav button:hover{
+    background: #FF3D4E;
+    color: #ffffff;
+}
+.banner{
+    background: linear-gradient(105.57deg, #50D5B7 -8.2%, #067D68 99.04%);
+    height: 552px;
+}
+.banner .banner-text{
+    margin-top: 161px;
+}
+.banner .banner-text strong{
+    font-family: 'Avenir Next', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.banner .banner-text h1{
+    font-family: 'Avenir Next', sans-serif;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 13px;
+}
+.banner .banner-text p{
+    font-family: 'Avenir Next', sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 12px;
+}
+.banner .banner-img{
+    margin-top: 83px;
+}
+.BannerShowcase{
+    text-align: center;
+}
+.case-study-01{
+    background: #FFFFFF;
+    height: 693px;
+}
+.case-study-01 .iconn{
+    margin-top: 143px;
+}
+.case-study-01 .box-text{
+    margin-top: -38px;
+    margin-left: 19px;
+}
+.case-study-01 .box-text h1{
+    font-family: 'Avenir Next', sans-serif;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+.case-study-01 .box-text p{
+    font-family: 'Avenir Next', sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.1em;
+    color: #868B92;
+    margin-top: 22px;
+}
+.case-study-01 .imgKamayan01{
+    margin-top: 157px;
+}
+
+
+.case-study-02{
+    height: 693px;
+}
+.case-study-02 .imgKamayan02{
+    margin-top: 199px;
+}
+.case-study-02 .iconn{
+    margin-top: 145px;
+}
+.case-study-02 .box-text{
+    margin-top: -38px;
+    margin-left: 19px;
+}
+.case-study-02 .box-text h1{
+    font-family: 'Avenir Next', sans-serif;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+.case-study-02 .box-text p{
+    font-family: 'Avenir Next', sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.1em;
+    color: #868B92;
+    margin-top: 22px;
+}
+
+.case-study-03{
+    height: 693px;
+    background: #FFFFFF;
+}
+.case-study-03 .iconn{
+    margin-top: 112px;
+}
+.case-study-03 .box-text{
+    margin-top: -38px;
+    margin-left: 19px;
+}
+.case-study-03 .box-text h1{
+    font-family: 'Avenir Next', sans-serif;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+.case-study-03 .box-text p{
+    font-style: normal;
+    font-weight: 450;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.1em;
+    color: #868B92;
+    margin-top: 22px;
+}
+.case-study-03 .imgKamayan03{
+    margin-top: 158px;
+}
+
+
+footer{
+    height: 522px;
+}
+footer .box-text{
+    margin-top: 116px;
+}
+footer .box-text h1{
+    font-family: 'Avenir Next', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+footer .box-text p{
+    font-family: 'Avenir Next', sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #868B92;
+    margin-top: 20px;
+}
+footer .box-contact{
+    margin-top: 116px;
+}
+footer .box-contact h1{
+    font-family: 'Avenir Next', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+footer .box-contact .numberborder{
+    font-family: 'Avenir Next', sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 21px;
+    line-height: 31px;  
+    letter-spacing: 0.05em; 
+    color: #868B92;
+    border-bottom: 3px solid #FF3D4E;
+    width: 148px;
+    margin-top: 18px;
+}
+footer .box-contact .emailborder{
+    font-family: 'Avenir Next', sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 21px;
+    line-height: 31px;  
+    letter-spacing: 0.05em; 
+    color: #868B92;
+    border-bottom: 3px solid #FF3D4E;
+    width: 314px;
+    margin-top: 18px;
+}
+footer .box-social{
+    margin-top: 116px;
+}
+footer .box-social h1{
+    font-family: 'Avenir Next', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+footer .box-social .iconlinks{
+    margin-top: 11px;
+}
+footer .box-social .git{
+    margin-left: 13px;
+}
+footer .box-social .fb{
+    margin-left: 13px;
+}
+footer .box-social .twitter{
+    margin-left: 13px;
+}
+footer .box-social a{
+    cursor: pointer;
+    text-decoration: none;
+}
